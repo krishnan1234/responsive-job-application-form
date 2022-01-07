@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iob Application Form</title>
+    <style>
+        body{
+            text-align: center;
+           
+        }
+        form{
+            display: inline-block;
+        
+        }
+        
+ 
+  @media only screen and (max-width:768px) {
+  .container {
+        width: 73%;
+  } }
+  @media only screen and (max-width:808px) {
+  .container {
+        width: 50%;
+  } 
+  h1{
+      text-align: center;
+  }
+}
+
+        /* label{
+            color:orange;
+            text-transform: uppercase;
+        }
+        input{
+            color:green;
+        }
+        select{
+            color: green;
+        }
+    
+        h1{
+            color: yellowgreen;
+        }
+        p{
+            color: orange;
+            text-transform: uppercase;
+        }
+        textarea {
+            resize: none;
+        } */
+    
+    </style>
+</head>
+<body>
+   <h1>Job Application Form</h1>
+   <br>
+
+  <div class="container">
+      <form action="#" id="app" method="post">
+    <div class="section1">
+        <label for="fname">First Name:*</label>
+        <input type="text" name="fname" placeholder="first name" required style="height: 30px; ">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <label for="lname">Last Name:*</label>
+        <input type="text" name="lname" placeholder="last name" required style="height: 30px;">
+    </div>
+    <br>
+    <br>
+    <div class="gender">
+        <label for="gender">Gender:*</label>
+        <input type="radio" id="html" name="fav_language" value="HTML">
+        <label for="html">Male</label>
+        <input type="radio" id="css" name="fav_language" value="CSS">
+        <label for="css">Female</label>
+        <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+        <label for="javascript">transgender</label>
+  </div>
+    <br>
+    <br>
+    <div class="email">
+     <label for="email">Email:*</label>
+     <input type="email" name="email" placeholder="abc@gmail.com" required style="width:520px; height: 30px;">
+    </div>
+    <br>
+    <br>
+    <div class="portfolio">
+        <label for="port">Portfolio website:</label>
+        <input type="url" name="port" placeholder="https//:" style="height: 30px; width: 460px;" >
+    </div>
+    <br>
+    <br>
+    <div class="position">
+        <label for="position">Position you are applying for:*</label>
+        <select id="pos" name="position" style="width: 380px; height: 30px;">
+          <option value="volvo">Front End Developer</option>
+          <option value="saab">Software Deeloper</option>
+          <option value="fiat">Data Scientist</option>
+          <option value="audi">Back End Developer</option>
+        </select>
+    </div>
+    <br>
+    <br>
+    <div class="salary">
+        <label for="salary">Salary Requirements:</label>
+        <input type="text" name="salary" placeholder="your salary requirement" style="height: 30px; width: 430px; ">
+       <br>
+       <br>
+       <br>
+        <label for="salary">When can you start?:</label>
+        <input type="text" name="start" placeholder="your wish" style="height: 30px; width: 430px;">
+    </div>
+    <br>
+    <br>
+    <div class="phone">
+     <label for="phone">phone number:*</label>
+     <input type="text" name="phone" placeholder="phone number" style="height: 30px; width: 460px; ">
+     <br><br><br>
+     <label for="alter">alternate phone number:</label>
+     <input type="text" name="start" placeholder="your wish" style="height: 30px; width: 410px;">
+ </div>
+ <br>
+ <br>
+ <div class="last">
+     <label for="port">Last Company you have worked:</label>
+     <input type="text" name="last" placeholder="" style="height: 30px; width: 350px;" >
+ </div>
+ <br>
+ <br>
+ <div class="locate">
+     <label for="locate">are you willing to relocate?:*</label>
+     <input type="radio" id="yes" name="fav_language" value="HTML">
+     <label for="html">Yes</label>
+     <input type="radio" id="no" name="fav_language" value="CSS">
+     <label for="css">No</label>
+     <input type="radio" id="not sure" name="fav_language" value="JavaScript">
+     <label for="javascript">Not Sure</label>
+ </div>
+ <br>
+ <br>
+ <div class="resume">
+     <input type="file">
+ </div>
+ <br>
+ <br>
+<p> about your self:*</p>
+ <div class="comments">
+    
+     <textarea name="about" id="self" cols="50" rows="7">
+         about your self:
+     </textarea>
+ </div>
+ <br>
+ <br>
+ <div class="submit">
+     <button type="submit" >Submit</button>
+ </div>
+ </form>
+  </div>
+</body>
+</html>
